@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.img-wrap {
+  position: relative;
+  height: 100px;
+  width: 870px;
+}
+
+.img-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img-wrap:hover .img-caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image-1 {
+  height: 500px;
+}
+
+button {
+  background-color: rgb(136, 163, 245);
+  color: rgb(1, 15, 27);
+  cursor: pointer;
+
+  font-family: "Orelega One", cursive;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+#body-text {
+  margin: 50px;
+}
+
+#get-weather {
+  margin: 50px;
+}

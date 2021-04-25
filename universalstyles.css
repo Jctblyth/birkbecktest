@@ -1,0 +1,85 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("/Users/joannablyth/Desktop/BBK assignment /images/homepageimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 45%;
+  height: 250px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 4rem;
+  color: whitesmoke;
+  text-align: center;
+}
+h1:hover {
+  color: rgb(164, 164, 165);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: rgba(10, 10, 10, 0.3);
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+nav li {
+  font-family: "Orelega One", cursive;
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+nav li span {
+  padding-left: 5px;
+}
+
+li a {
+  padding: 5px;
+  background-color: #fff;
+  color: rgb(99, 101, 122);
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: rgb(136, 163, 245);
+  color: rgb(1, 15, 27);
+  cursor: pointer;
+  text-decoration: none;
+}
